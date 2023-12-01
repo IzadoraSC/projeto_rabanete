@@ -7,7 +7,7 @@
 ## # mudar de acordo com a pasta em seu computador
 ## setwd("E:/Desktop/tiagoolivoto/static/tutorials/pliman_lca/imgs")
 
-
+#https://www.expstat.com/eventos/cursopliman
 # install.packages("pliman")
 
 #'

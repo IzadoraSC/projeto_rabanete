@@ -21,6 +21,13 @@ install.packages("pliman")
 # Para instalar a vinheta HTML, use
 devtools::install_github ("TiagoOlivoto/pliman", build_vignettes = TRUE)
 
+if (!requireNamespace("BiocManager", quietly = TRUE)){
+    install.packages("BiocManager")
+}
+
+BiocManager::install("EBImage")
+install.packages("ExpImage")
+
 # install.packages("remotes")
 #
 # install.packages("dados") #https://github.com/cienciadedatos/dados
